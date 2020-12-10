@@ -9,7 +9,7 @@ import lombok.Data;
 public class Sample001Form {
 
     @NotNull
-    private int id;
+    private Integer id;
 
     @NotBlank
     private String name;
